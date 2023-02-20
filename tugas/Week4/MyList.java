@@ -23,8 +23,8 @@ public class MyList {
 
             //c. Implement sort pada list nama provinsi minimal 10 data secara descending
 
-            List<String> provinces = Arrays.asList("Aceh", "Sumatera Utara", "Sumatera Barat", "Riau", "Jambi",
-                    "Sumatera Selatan", "Bengkulu", "Lampung", "Bangka Belitung", "Banten");
+            List<String> provinces = Arrays.asList("Jawa Barat", "Sulawesi Selatan", "Maluku", "Sumatera Barat", "DKI Jakarta",
+                    "Kalimantan utara", "DI Yoggyakarta", "Lampung", "Bangka Belitung", "Nusa Tenggara Timur");
 
             provinces.sort(Collections.reverseOrder());
             System.out.println("c. List nama provinsi secara descending");
